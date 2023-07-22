@@ -65,7 +65,7 @@ body {
 
 .section {
   margin-left: 70px;
-  margin-top: 80px;
+  margin-top: 140px;
 }
 
 .education_paragraph,
@@ -73,6 +73,53 @@ body {
 .technologies_paragraph {
   margin: 0;
 }
+
+.table-of-contents .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-center.mb-5 h2 {
+  margin-bottom: 0;
+}
+
+.list-unstyled {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.section-introduction {
+  text-align: center;
+}
+
+.introduction_txt {
+  font-size: 25px; 
+  text-align: left;
+  max-width: 800px; 
+  margin: 0 auto; 
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+.list-unstyled li {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+#top_education{
+  margin-top: 50px;
+}
+
+#university{
+  margin-bottom: 60px;
+}
+
+.education_paragraph{
+  font-size: 18px;
+}
+
 
 .education_paragraph a {
   font-weight: bold;
@@ -9564,7 +9611,7 @@ button.bg-dark:focus {
 }
 
 .text-primary1 {
-  font-size: 77px;
+  font-size: 40px;
   color: #00FF8C !important;
 }
 
@@ -9650,7 +9697,7 @@ a.text-light:hover, a.text-light:focus {
 }
 
 .section-family {
-  margin-top: 100px;
+  margin-top: 140px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9668,11 +9715,12 @@ a.text-light:hover, a.text-light:focus {
 }
 
 .youtube_text{
-  color: #00FF8C;
+  margin-top: 20px;
+  font-size: 30px;
 }
 
 .section-hobbies {
-  margin-top: 100px;
+  margin-top: 140px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9691,7 +9739,8 @@ a.text-light:hover, a.text-light:focus {
 }
 
 .about_me{
-  font-size: 20px;
+  font-size: 40px;
+  /* color: #00FF8C */
 }
 
 .code_img{
